@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="#fff">
+
+    <EditText
+        android:id="@+id/editTeks"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:hint="Masukkan Teks Di Sini" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="GENERASI KODE"
+        android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@color/teal_700"
+        android:backgroundTint="@color/teal_700"
+        android:layout_below="@+id/editTeks"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        />
+
+
+
+
+
+</RelativeLayout>
